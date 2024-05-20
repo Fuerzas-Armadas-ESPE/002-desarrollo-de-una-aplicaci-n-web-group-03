@@ -20,8 +20,9 @@ function AppHeader() {
       <div className="header">
         <div className="logo">
           <i className="fas fa-bolt"></i>
-          <ul><AnchorLink href="/" title="Game Vault" /></ul>
-         {/*  <Link to="/">Game Vault</Link> */}
+          <Link to="/">Game Vaullt</Link>
+
+          
         </div>
         <div className="mobileHidden">
           <Anchor targetOffset="65">
@@ -37,16 +38,16 @@ function AppHeader() {
           </Button>
           <Drawer
             placement="right"
-            closable={false}
+            closable={true}
             onClose={onClose}
             visible={visible}
           >
-            <Anchor targetOffset="65">
-              <Link to="/">Home</Link>
-              <Link to="/information">Information</Link>
-              <Link to="/AppCategories">Categories</Link>
-              <Link to="/AppContact">Contact</Link>
-            </Anchor>
+            <div className="drawerLinks">
+              <Link to="/" onClick={onClose}>Home</Link>
+              <Link to="/information" onClick={onClose}>Information</Link>
+              <Link to="/AppCategories" onClick={onClose}>Categories</Link>
+              <Link to="/AppContact" onClick={onClose}>Contact</Link>
+            </div>
           </Drawer>
         </div>
       </div>

@@ -8,7 +8,7 @@ function AppContact() {
   return (
     <div className="categories">
       <h1>Contact us</h1>
-      <h1>Contact us</h1>
+   
       <AppContactUs/>
     </div>
   );

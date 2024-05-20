@@ -81,7 +81,9 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
+  padding: 10px 20px;
+ 
+  
 }
 
 .header .logo {
@@ -90,6 +92,13 @@ header
   font-weight: 400;
   color: #fff;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 
 .header .logo .fas {
   color: #BF18F2;
@@ -532,7 +541,31 @@ footer
 }
 
 .mobileHidden {
-  display: block;
+  display: flex;
+}
+
+
+.drawerLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.drawerLinks a {
+  padding: 10px 0;
+  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+@media (max-width: 768px) {
+  .mobileHidden {
+    display: none;
+  }
+
+  .mobileVisible {
+    display: flex;
+  }
 }
 
 /* 

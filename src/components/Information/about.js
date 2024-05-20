@@ -20,7 +20,7 @@ const items = [
     icon: <i className="fas fa-database"></i>,
     title: 'Compras simplificadas',
     content: 'Nuestra tienda admite más de 100 métodos de pago en más de 35 monedas, lo que te da la flexibilidad de pagar como tú quieras.',
-  },
+  }
 ]
 
 function AppAbout() {
