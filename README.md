@@ -11,7 +11,7 @@
 
 #4)crear un .env en la carpeta server y poner la informacion que esta en el pdf
 
-#EJECUCION
+#EJECUCION en local host 
 
 #1)npm start        ->en la raiz del directorio
 
